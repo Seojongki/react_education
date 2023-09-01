@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  auto;   
+}
+
+
+.main .nation {
+  padding: 0.5em; /* 여백 반칸 */
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid #fff;
+  
+}
+
+.flag {
+  padding: 0.5em; /* 여백 반칸 */
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);  
+}
+
+.detail .nation {
+  display: flex;  
+  justify-content: center;    
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+
+.detail .nation .nation-flgs {
+  padding: 0.5em; /* 여백 반칸 */
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);  
+  height: 350px;
+}
+.detail .nation .nation-text {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 5px;  
+  width: 350px;    
+  height: 200px;
+  margin-left: 10px;  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
+}
+
+.darkmode { 
+  background: #000;
+  color: #fff;
+}
+
+.search{
+  text-align: center;
+  margin: 5px;
+  
+}
+
+button {
+  padding: 10px;
+  text-transform: capitalize;
+  margin: 5px;
+}
+
+input{
+  height: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+.text{
+  text-align: left;
+}
+
+

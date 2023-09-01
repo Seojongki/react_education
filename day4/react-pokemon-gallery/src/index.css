@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;  
+  font-family: "맑은 고딕", sans-serif;
+  width: 700px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}

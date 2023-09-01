@@ -1,0 +1,21 @@
+/*전역 스타일(초기값)*/
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+ 
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: red;
+}
+
+body {
+  margin: 0;
+
+}

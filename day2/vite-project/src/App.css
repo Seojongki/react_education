@@ -1,0 +1,6 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center; /*가로정렬*/
+  height: 100vh; /*세로정렬*/
+}

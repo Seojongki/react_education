@@ -1,0 +1,10 @@
+/* 
+전용 css 만들기
+파일명과 동일하게 앞을 맞춰준다.
+ex) CSSModule.jsx  --> CSSModule.module.css
+*/
+
+.textRed{
+    color: red;
+    border: 2px solid blue;
+}
